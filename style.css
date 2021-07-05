@@ -1,4 +1,5 @@
 body{
+    font-family: 'Poppins', sans-serif;
     margin: 0;
 }
 .top-banner{
@@ -8,12 +9,21 @@ body{
 .flexible-area{
     display: flex;
 }
+.flexible-area h1{
+    font-size: 42px;
+}
+p{
+    color: dimgray;
+}
 .half-width{
     width: 50%;
     padding: 5%;
 }
 .half-width img{
     width: 100%;
+}
+.half-width p{
+    margin-bottom: 5%;
 }
 h1{
     font-size: 50px;
@@ -46,7 +56,7 @@ h1{
 .web-dev{
     width:40%;
     margin: 0 3% 0 5%;
-    padding: 3%;
+    padding: 3% 2%;
     box-shadow: 10px 10px 30px grey;
 }
 .web-dev h2{
